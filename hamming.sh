@@ -20,4 +20,10 @@ hamming_distance(){
 	strand1=$1
 	strand2=$2
 	len=${#strand1}
+
+	if [ $len -ne ${#strand2} ]; then
+		echo "DNA strands must be of equal length"
+		exit 1
+	fi
+
 }
