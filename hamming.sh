@@ -25,5 +25,13 @@ hamming_distance(){
 		echo "DNA strands must be of equal length"
 		exit 1
 	fi
+	
+	distance=0
+	for (( i=0; i<len; i++ )); do
+		if [ "${strand1:i:1}" != "${strand2:i:1}" ]; then
+			((distance++))
+		fi
+	done
 
+	echo  $distance
 }
