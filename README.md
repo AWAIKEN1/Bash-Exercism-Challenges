@@ -1,6 +1,7 @@
 # Bash Exercism Challenges
 
 This repository contains my solutions to Bash coding challenges from [Exercism](https://exercism.org/).
+I completed these exercises on a Linux VM running Ubuntu
 
 ## About Exercism
 
