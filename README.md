@@ -15,7 +15,8 @@ Feel free to explore the solutions and provide feedback or suggestions for impro
 ## Solutions Completed
  - hamming
  - oneforwho
-
+ - error_handling
+ 
 ## Getting Started
 
 To get started with Exercism and work on these challenges yourself, you can visit the [Exercism website](https://exercism.org/) and sign up for an account. Once you're signed in, you can access the Bash track and start working on the challenges. 
