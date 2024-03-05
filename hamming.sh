@@ -35,3 +35,5 @@ hamming_distance(){
 
 	echo  $distance
 }
+
+hamming_distance "$1" "$2"
